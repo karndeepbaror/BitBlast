@@ -1,4 +1,4 @@
-# _🔐 Bit Blast - Shut Down Server_
+# _🔐 Bit Blast - Shutdown Server_
 
 *⚡ BitBlast — Encrypted Chaos Engine ⚡*  
 > A next-gen, encrypted DDoS tool crafted for stealth, power, and precision.  
