@@ -1,37 +1,26 @@
-
-from cryptography.fernet import Fernet
-import getpass
 import sys
-import os
+from cryptography.fernet import Fernet
 
 def main():
-    enc_file = "bitblast.enc"
-    if not os.path.isfile(enc_file):
-        print(f"❌ Encrypted file '{enc_file}' नहीं मिली।")
-        sys.exit(1)
+    print("=== BitBlast Launcher ===")
+    key_input = input("Enter your decryption key: ").strip()
+    key = key_input.encode()
+
+    encrypted_file = "bitblast.enc"
 
     try:
-        # from user key input (hidden)
-        key = getpass.getpass("Enter decryption key: ").encode()
-
-        # Fernet object
-        fernet = Fernet(key)
-
-        # Read Encrypted File
-        with open(enc_file, "rb") as file:
+        with open(encrypted_file, "rb") as file:
             encrypted_data = file.read()
 
-        # Decrypt
-        decrypted_code = fernet.decrypt(encrypted_data)
+        fernet = Fernet(key)
+        decrypted_data = fernet.decrypt(encrypted_data)
 
-        # Run Decrypted Code
-        exec(decrypted_code.decode())
-
-    except KeyboardInterrupt:
-        print("\n❌ Process cancelled by user.")
+        exec(decrypted_data.decode())
+    except FileNotFoundError:
+        print(f"[!] Encrypted file '{encrypted_file}' not found!")
         sys.exit(1)
     except Exception as e:
-        print(f"❌ Decryption failed: {e}")
+        print(f"[!] Decryption or execution failed: {e}")
         sys.exit(1)
 
 if _name_ == "_main_":
