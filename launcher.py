@@ -1,4 +1,4 @@
-python
+
 from cryptography.fernet import Fernet
 import getpass
 import sys
