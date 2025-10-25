@@ -1,33 +1,33 @@
-```diff
-+██████╗ ██╗████████╗     ██████╗ ██╗      █████╗ ███╗   ███╗
-+██╔══██╗██║╚══██╔══╝    ██╔═══██╗██║     ██╔══██╗████╗ ████║
-+██████╔╝██║   ██║       ██║   ██║██║     ███████║██╔████╔██║
-+██╔═══╝ ██║   ██║       ██║   ██║██║     ██╔══██║██║╚██╔╝██║
-+██║     ██║   ██║       ╚██████╔╝███████╗██║  ██║██║ ╚═╝ ██║
-+╚═╝     ╚═╝   ╚═╝        ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
 
-! ⚠️ **DANGER ZONE** ⚠️
-! Authorized Access Only!
-! Unauthorized use is strictly prohibited and may result in criminal charges.
+```markdown
+<p align="center">
+  <code style="font-size: 40px; color: #ff0000; font-weight: 900; letter-spacing: 5px;">
+    ＢＩＴ ＢＬＡＳＴ
+  </code>
+</p>
 
-🚨 ABOUT BIT BLAST 🚨
-
-+ *Bit Blast* is a powerful, encrypted, and stealthy DDoS attack toolkit designed for penetration testers and cybersecurity professionals.
-
-+ Built with advanced payload encryption, it demands a valid *AUTH KEY* to decrypt and run — securing against unauthorized usage.
+<p align="center">
+  <b><span style="color:#00ff00; font-size: 18px;">💀 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗖𝘆𝗯𝗲𝗿 𝗳𝗹𝗼𝗼𝗱𝗲𝗿 💀</span></b>
+</p>
 
 ---
 
-⚙️ FEATURES
-+ ✅ Multi-vector DDoS attack engine  
-+ ✅ Auto-decryption with secure key input  
-+ ✅ Command-line interface for stealth operations  
-+ ✅ Real-time attack monitoring  
-+ ✅ Modular & easily extendable  
+⚠️ 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⚠️
+> Authorized personnel only. Unauthorized use is illegal and punishable by law.  
 
 ---
 
-🛠️ INSTALLATION & USAGE
+🎯 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
+
+- 🔥 *Multi-vector DDoS attacks* with stealth mode  
+- 🛡️ *Encrypted payloads* — KEY required for execution  
+- ⚡ Real-time CLI logs with progress bars  
+- 🌐 Cross-platform (Linux / Windows / Mac)  
+- 🚀 Lightweight, fast & deadly  
+
+---
+
+⚙️ 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
 
 ```bash
 git clone https://github.com/yourusername/BitBlast.git
@@ -36,46 +36,18 @@ pip3 install -r requirements.txt
 python3 launcher.py
 ```
 
-* When prompted, enter your *AUTH KEY* to decrypt and unlock the tool functionalities.
+---
+
+🔐 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧
+
+> You *MUST* provide a valid decryption key to run this tool.  
+> Key not provided or invalid = ❌ tool refuses to execute.  
 
 ---
 
-🧰 DEPENDENCIES
-- Python 3.8+  
-- cryptography  
-- requests  
-- other modules as listed in *requirements.txt*
+📦 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐢𝐞𝐬
 
----
-
-⚠️ WARNING & DISCLAIMER
-
-+ This tool is intended *only for authorized testing and educational purposes.*  
-+ Misuse for illegal activities is punishable by law.  
-+ The developer(s) hold no responsibility for damage caused by improper use.  
-+ Use responsibly, ethically, and legally.
-
----
-
-📞 CONTACT & SUPPORT
-
-For *auth key requests, support, or business inquiries*:  
-
-> 🔐 Email: support@cryptonicarea.com  
-> 🌐 Website: www.cryptonicarea.com  
-> 💬 Telegram: @CryptonicSupport  
-
----
-
-💡 PRO TIP
-
-*Keep your AUTH KEY safe.* Sharing it publicly compromises your access and tool integrity.
-
----
-
-```diff
-+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-+💥 LET'S DOMINATE THE CYBER REALM SAFELY! 💥
-+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-```
+| Package       | Version   |
+|---------------|------------|
+| cryptography  | latest    |
+| requests      | latest    |
