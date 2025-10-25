@@ -1,4 +1,3 @@
-
 ```diff
 +██████╗ ██╗████████╗     ██████╗ ██╗      █████╗ ███╗   ███╗
 +██╔══██╗██║╚══██╔══╝    ██╔═══██╗██║     ██╔══██╗████╗ ████║
@@ -31,7 +30,7 @@
 🛠️ INSTALLATION & USAGE
 
 ```bash
-git clone https://github.com/karndeepbaror/BitBlast.git
+git clone https://github.com/yourusername/BitBlast.git
 cd BitBlast
 pip3 install -r requirements.txt
 python3 launcher.py
@@ -42,7 +41,6 @@ python3 launcher.py
 ---
 
 🧰 DEPENDENCIES
-
 - Python 3.8+  
 - cryptography  
 - requests  
@@ -63,8 +61,8 @@ python3 launcher.py
 
 For *auth key requests, support, or business inquiries*:  
 
-> 🔐 Email: cryptonicarea@gmail.com
-> 🌐 Website: karndeepbaror.github.com  
+> 🔐 Email: support@cryptonicarea.com  
+> 🌐 Website: www.cryptonicarea.com  
 > 💬 Telegram: @CryptonicSupport  
 
 ---
