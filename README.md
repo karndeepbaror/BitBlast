@@ -18,7 +18,7 @@
 + - Key-based Access Control System
 
 * 🚀 INSTALLATION:
-```bash
+```
 git clone https://github.com/your-repo/BitBlast.git
 cd BitBlast
 pip3 install -r requirements.txt
