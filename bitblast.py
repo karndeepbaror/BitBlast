@@ -24,15 +24,15 @@ def decrypt_and_run(enc_path: Path, key: str):
 
 def main():
     console.clear()
-    console.rule("[bold yellow]🔐 BitBlast Secure Runner[/bold yellow]")
-    console.print("[bold cyan]Welcome to BitBlast![/bold cyan]\n", style="bold white")
+    console.rule("[bold yellow]🔐 BitBlast - Shutdown The Server[/bold yellow]")
+    console.print("[bold cyan] Access Granted![/bold cyan]\n", style="bold white")
 
     enc_file = Path("bitblast.enc")
     if not enc_file.exists():
         console.print("[red]Encrypted file 'bitblast.enc' not found![/red]")
         return
 
-    key = getpass("Enter your decryption key: ").strip()
+    key = getpass("Enter Key To Access Bit Blast:").strip()
     if not key:
         console.print("[red]No key entered! Exiting...[/red]")
         return
