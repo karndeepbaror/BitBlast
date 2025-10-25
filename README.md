@@ -1,53 +1,35 @@
 
-```markdown
-<p align="center">
-  <code style="font-size: 40px; color: #ff0000; font-weight: 900; letter-spacing: 5px;">
-    ＢＩＴ ＢＬＡＳＴ
-  </code>
-</p>
+```diff
++ ██████╗ ██╗   ██╗ ██████╗ ███████╗████████╗ █████╗ ██╗     
++ ██╔══██╗██║   ██║██╔═══██╗██╔════╝╚══██╔══╝██╔══██╗██║     
++ ██████╔╝██║   ██║██║   ██║█████╗     ██║   ███████║██║     
++ ██╔═══╝ ██║   ██║██║   ██║██╔══╝     ██║   ██╔══██║██║     
++ ██║     ╚██████╔╝╚██████╔╝███████╗   ██║   ██║  ██║███████╗
++ ╚═╝      ╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
 
-<p align="center">
-  <b><span style="color:#00ff00; font-size: 18px;">💀 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗖𝘆𝗯𝗲𝗿 𝗳𝗹𝗼𝗼𝗱𝗲𝗿 💀</span></b>
-</p>
+! ⚠️ WARNING: Authorized Use Only! ⚠️
+! This tool is for educational and penetration testing purposes only.
+! Illegal use is punishable by law.
 
----
+⚔️ FEATURES:
++ - Multi-Vector DDoS Attack Engine
++ - Encrypted Payloads with Auto-Decryption
++ - CLI Interface for Stealth & Power
++ - Key-based Access Control System
 
-⚠️ 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⚠️
-> Authorized personnel only. Unauthorized use is illegal and punishable by law.  
-
----
-
-🎯 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
-
-- 🔥 *Multi-vector DDoS attacks* with stealth mode  
-- 🛡️ *Encrypted payloads* — KEY required for execution  
-- ⚡ Real-time CLI logs with progress bars  
-- 🌐 Cross-platform (Linux / Windows / Mac)  
-- 🚀 Lightweight, fast & deadly  
-
----
-
-⚙️ 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
-
+* 🚀 INSTALLATION:
 ```bash
-git clone https://github.com/yourusername/BitBlast.git
+git clone https://github.com/your-repo/BitBlast.git
 cd BitBlast
 pip3 install -r requirements.txt
+```
+
+* ▶️ RUN TOOL:
+```bash
 python3 launcher.py
 ```
 
----
+- Enter your *AUTH KEY* to decrypt & start attack.
 
-🔐 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧
-
-> You *MUST* provide a valid decryption key to run this tool.  
-> Key not provided or invalid = ❌ tool refuses to execute.  
-
----
-
-📦 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐢𝐞𝐬
-
-| Package       | Version   |
-|---------------|------------|
-| cryptography  | latest    |
-| requests      | latest    |
+📢 DISCLAIMER:
++ Use responsibly. Do NOT misuse.
