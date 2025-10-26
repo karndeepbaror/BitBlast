@@ -17,3 +17,5 @@ python bitblast.py
 ```
 ### _🗝️ Auth Key_
 > Contact With Us And Get Your Auth Key ⚡
+
+__Be A Cyber Warrior Not Cyber Criminal 🥷🏻__
