@@ -7,7 +7,7 @@
 
  _⚡ You will be given access only after you know why you want to do it._
 
-### 🛰️ Installation 
+### _🛰️ Installation_
 ```
 apt update && apt upgrade -y
 pip3 install cryptography
@@ -15,4 +15,5 @@ git clone https://github.com/karndeepbaror/BitBlast.git
 cd BitBlast
 python bitblast.py
 ```
-
+### _🗝️ Auth Key_
+> Contact With Us And Get Your Auth Key ⚡
